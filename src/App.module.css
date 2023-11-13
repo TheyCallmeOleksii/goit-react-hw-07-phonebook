@@ -1,0 +1,51 @@
+.form {
+  display: flex;
+}
+.box {
+  width: 300px;
+  margin: 30px auto;
+  border: 1px solid;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  /* background-image: url(./assets/image/photo12.jpg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (min-width: 768px) {
+  .box {
+    width: 350px;
+  }
+}
+.title {
+  padding: 10px;
+  margin-top: 2rem;
+  font-family: 'Norican', cursive;
+  color: saddlebrown;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+.title:before,
+.title:after {
+  content: '';
+  display: block;
+  width: 5rem;
+  height: 2px;
+  background-color: currentColor;
+  margin: 0 1rem;
+}
+
+.inputFilter {
+  margin-left: 10px;
+}
+.messageTitle {
+  padding: 10px;
+  font-family: 'Norican', cursive;
+  color: saddlebrown;
+  text-align: center;
+  font-size: 10px;
+}
