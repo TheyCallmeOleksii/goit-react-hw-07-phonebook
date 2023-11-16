@@ -47,7 +47,7 @@
   transition: opacity 0.3s;
   z-index: 1;
   mix-blend-mode: overlay;
-  background-image: linear-gradient(to left, #ffe4b2, #c8b188);
+  /* background-image: linear-gradient(to left, #ffe4b2, #c8b188); */
 }
 
 .itemList:hover {

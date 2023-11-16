@@ -20,7 +20,9 @@ export const ContactForm = () => {
     };
 
     const existingContact = contacts.find(
-      contact => contact.name === name || contact.number === number
+      contact =>
+        contact.name.toLowerCase() === name.toLowerCase() ||
+        contact.number === number
     );
 
     if (existingContact) {
